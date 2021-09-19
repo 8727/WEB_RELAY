@@ -10,8 +10,8 @@
       <TargetName>WEB_BOOT</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>6160000::V6.16::ARMCLANG</pCCUsed>
-      <uAC6>1</uAC6>
+      <pCCUsed>5060960::V5.06 update 7 (build 960)::ARMCC</pCCUsed>
+      <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
           <Device>STM32F407VETx</Device>
@@ -313,7 +313,7 @@
           </ArmAdsMisc>
           <Cads>
             <interw>1</interw>
-            <Optim>7</Optim>
+            <Optim>1</Optim>
             <oTime>0</oTime>
             <SplitLS>0</SplitLS>
             <OneElfS>1</OneElfS>
@@ -328,10 +328,10 @@
             <uC99>0</uC99>
             <uGnu>0</uGnu>
             <useXO>0</useXO>
-            <v6Lang>3</v6Lang>
-            <v6LangP>3</v6LangP>
-            <vShortEn>1</vShortEn>
-            <vShortWch>1</vShortWch>
+            <v6Lang>0</v6Lang>
+            <v6LangP>0</v6LangP>
+            <vShortEn>0</vShortEn>
+            <vShortWch>0</vShortWch>
             <v6Lto>0</v6Lto>
             <v6WtE>0</v6WtE>
             <v6Rtti>0</v6Rtti>
@@ -384,14 +384,14 @@
           <GroupName>CMSIS</GroupName>
           <Files>
             <File>
+              <FileName>startup_stm32f40xx.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\CMSIS\StartUp\startup_stm32f40xx.s</FilePath>
+            </File>
+            <File>
               <FileName>system_stm32f4xx.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\CMSIS\src\system_stm32f4xx.c</FilePath>
-            </File>
-            <File>
-              <FileName>startup_stm32f4xx.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>..\CMSIS\StartUp\startup_stm32f4xx.s</FilePath>
             </File>
           </Files>
         </Group>
@@ -412,7 +412,20 @@
   <RTE>
     <apis/>
     <components/>
-    <files/>
+    <files>
+      <file attr="config" category="source" condition="STM32F407xx_ARMCC" name="Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f407xx.s" version="2.6.2">
+        <instance index="0" removed="1">RTE\Device\STM32F407VETx\startup_stm32f407xx.s</instance>
+        <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="2.6.3" condition="STM32F4 CMSIS"/>
+        <package name="STM32F4xx_DFP" schemaVersion="1.6.3" url="http://www.keil.com/pack/" vendor="Keil" version="2.15.0"/>
+        <targetInfos/>
+      </file>
+      <file attr="config" category="source" name="Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c" version="2.6.2">
+        <instance index="0" removed="1">RTE\Device\STM32F407VETx\system_stm32f4xx.c</instance>
+        <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="2.6.3" condition="STM32F4 CMSIS"/>
+        <package name="STM32F4xx_DFP" schemaVersion="1.6.3" url="http://www.keil.com/pack/" vendor="Keil" version="2.15.0"/>
+        <targetInfos/>
+      </file>
+    </files>
   </RTE>
 
   <LayerInfo>
