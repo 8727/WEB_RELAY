@@ -408,6 +408,11 @@
               <FileType>1</FileType>
               <FilePath>..\SOURCE\src\sysInit.c</FilePath>
             </File>
+            <File>
+              <FileName>lan87xx.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SOURCE\src\lan87xx.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

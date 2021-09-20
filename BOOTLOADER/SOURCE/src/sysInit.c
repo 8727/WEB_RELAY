@@ -23,12 +23,8 @@ void DelayMs(uint32_t ms){ uint32_t tickStart = msTicks;
 
 //--------------------------------------------------------------------------------------------------------------------//
 void Sysinit(void){
-  _Bool status = 0x00;
-  
-
-  
-  status = SysTick_Config(SystemCoreClock / 1000);   //1ms	
-	
+	SysTick_Config(SystemCoreClock / 1000);   //1ms	
+	Lan87xxInit();
 }
 
 //--------------------------------------------------------------------------------------------------------------------//
