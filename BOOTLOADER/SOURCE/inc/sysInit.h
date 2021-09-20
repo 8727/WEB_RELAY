@@ -3,8 +3,7 @@
 
 //--------------------------------------------------------------------------------------------------------------------//
 #include "stm32f4xx.h"
-//#include "eeprom.h"
-#include "string.h"
+//#include "string.h"
 
 
 
@@ -13,7 +12,7 @@
 #define true                            0x01
 #define false                           0x00
   
-#if (INFO == true || SIM868_DEBUG == true)
+#if (INFO == true || WEB_BOOT_DEBUG == true)
   #define ACTIVE_SWO
 #endif
 
