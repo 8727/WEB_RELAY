@@ -1,0 +1,60 @@
+Dependencies for Project 'web_boot', Target 'WEB_BOOT': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (..\CMSIS\StartUp\startup_stm32f40xx.s)(0x50EEBA14)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-3-IC:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 535" -Wa,armasm,--pd,"STM32F407xx SETA 1"-o ./objects/startup_stm32f40xx.o)
+F (..\CMSIS\src\system_stm32f4xx.c)(0x61479A1C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../BOOTLOADER -I ../CMSIS/inc -I ../SOURCE/inc -I ../lwip_v1.3.2/src/include -I ../lwip_v1.3.2/port/STM32F4x7/Standalone -I ../lwip_v1.3.2/src/include/lwip -I ../lwip_v1.3.2/src/include/netif -I ../lwip_v1.3.2/src/include/ipv4/lwip-IC:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="535" -DSTM32F407xx-o ./objects/system_stm32f4xx.o -MD)
+I (..\CMSIS\inc\stm32f4xx.h)(0x61478F48)
+I (..\CMSIS\inc\core_cm4.h)(0x50CF6AFD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (..\CMSIS\inc\core_cmInstr.h)(0x50CF6AFD)
+I (..\CMSIS\inc\core_cmFunc.h)(0x50CF6AFD)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x50CF6AFD)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x50EEBA15)
+F (..\SOURCE\src\main.c)(0x61A8D23A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../BOOTLOADER -I ../CMSIS/inc -I ../SOURCE/inc -I ../lwip_v1.3.2/src/include -I ../lwip_v1.3.2/port/STM32F4x7/Standalone -I ../lwip_v1.3.2/src/include/lwip -I ../lwip_v1.3.2/src/include/netif -I ../lwip_v1.3.2/src/include/ipv4/lwip-IC:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="535" -DSTM32F407xx-o ./objects/main.o -MD)
+I (..\SOURCE\inc\main.h)(0x61A8D0F3)
+I (..\CMSIS\inc\stm32f4xx.h)(0x61478F48)
+I (..\CMSIS\inc\core_cm4.h)(0x50CF6AFD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (..\CMSIS\inc\core_cmInstr.h)(0x50CF6AFD)
+I (..\CMSIS\inc\core_cmFunc.h)(0x50CF6AFD)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x50CF6AFD)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x50EEBA15)
+I (..\SOURCE\inc\sysInit.h)(0x61A8D119)
+I (..\SOURCE\inc\eeprom.h)(0x61A8D1E5)
+F (..\SOURCE\src\sysInit.c)(0x61A8CEC7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../BOOTLOADER -I ../CMSIS/inc -I ../SOURCE/inc -I ../lwip_v1.3.2/src/include -I ../lwip_v1.3.2/port/STM32F4x7/Standalone -I ../lwip_v1.3.2/src/include/lwip -I ../lwip_v1.3.2/src/include/netif -I ../lwip_v1.3.2/src/include/ipv4/lwip-IC:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="535" -DSTM32F407xx-o ./objects/sysinit.o -MD)
+I (..\SOURCE\inc\sysInit.h)(0x61A8D119)
+I (..\CMSIS\inc\stm32f4xx.h)(0x61478F48)
+I (..\CMSIS\inc\core_cm4.h)(0x50CF6AFD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (..\CMSIS\inc\core_cmInstr.h)(0x50CF6AFD)
+I (..\CMSIS\inc\core_cmFunc.h)(0x50CF6AFD)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x50CF6AFD)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x50EEBA15)
+I (..\SOURCE\inc\eeprom.h)(0x61A8D1E5)
+F (..\SOURCE\src\eeprom.c)(0x61A8F61B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../BOOTLOADER -I ../CMSIS/inc -I ../SOURCE/inc -I ../lwip_v1.3.2/src/include -I ../lwip_v1.3.2/port/STM32F4x7/Standalone -I ../lwip_v1.3.2/src/include/lwip -I ../lwip_v1.3.2/src/include/netif -I ../lwip_v1.3.2/src/include/ipv4/lwip-IC:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="535" -DSTM32F407xx-o ./objects/eeprom.o -MD)
+I (..\..\BOOTLOADER\eeprom.h)(0x61A8F61B)
+I (..\CMSIS\inc\stm32f4xx.h)(0x61478F48)
+I (..\CMSIS\inc\core_cm4.h)(0x50CF6AFD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (..\CMSIS\inc\core_cmInstr.h)(0x50CF6AFD)
+I (..\CMSIS\inc\core_cmFunc.h)(0x50CF6AFD)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x50CF6AFD)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x50EEBA15)
+I (..\SOURCE\inc\flash.h)(0x61A8F61B)
+F (..\SOURCE\src\lan87xx.c)(0x61515D73)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../BOOTLOADER -I ../CMSIS/inc -I ../SOURCE/inc -I ../lwip_v1.3.2/src/include -I ../lwip_v1.3.2/port/STM32F4x7/Standalone -I ../lwip_v1.3.2/src/include/lwip -I ../lwip_v1.3.2/src/include/netif -I ../lwip_v1.3.2/src/include/ipv4/lwip-IC:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="535" -DSTM32F407xx-o ./objects/lan87xx.o -MD)
+I (..\SOURCE\inc\lan87xx.h)(0x6148B52B)
+I (..\CMSIS\inc\stm32f4xx.h)(0x61478F48)
+I (..\CMSIS\inc\core_cm4.h)(0x50CF6AFD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (..\CMSIS\inc\core_cmInstr.h)(0x50CF6AFD)
+I (..\CMSIS\inc\core_cmFunc.h)(0x50CF6AFD)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x50CF6AFD)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x50EEBA15)
+F (..\SOURCE\src\flash.c)(0x61A8FBA9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../BOOTLOADER -I ../CMSIS/inc -I ../SOURCE/inc -I ../lwip_v1.3.2/src/include -I ../lwip_v1.3.2/port/STM32F4x7/Standalone -I ../lwip_v1.3.2/src/include/lwip -I ../lwip_v1.3.2/src/include/netif -I ../lwip_v1.3.2/src/include/ipv4/lwip-IC:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="535" -DSTM32F407xx-o ./objects/flash.o -MD)
+I (..\SOURCE\inc\flash.h)(0x61A8F61B)
+I (..\CMSIS\inc\stm32f4xx.h)(0x61478F48)
+I (..\CMSIS\inc\core_cm4.h)(0x50CF6AFD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (..\CMSIS\inc\core_cmInstr.h)(0x50CF6AFD)
+I (..\CMSIS\inc\core_cmFunc.h)(0x50CF6AFD)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x50CF6AFD)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x50EEBA15)

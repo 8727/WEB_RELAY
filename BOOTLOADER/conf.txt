@@ -1,0 +1,5 @@
+UPD = 1
+MAC = 2
+IP = 1
+MSK = 1
+GW = 1

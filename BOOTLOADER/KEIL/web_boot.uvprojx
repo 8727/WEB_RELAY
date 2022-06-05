@@ -10,7 +10,7 @@
       <TargetName>WEB_BOOT</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>6140000::V6.14::ARMCLANG</pCCUsed>
+      <pCCUsed>6160000::V6.16::ARMCLANG</pCCUsed>
       <uAC6>1</uAC6>
       <TargetOption>
         <TargetCommonOption>
@@ -313,7 +313,7 @@
           </ArmAdsMisc>
           <Cads>
             <interw>1</interw>
-            <Optim>7</Optim>
+            <Optim>6</Optim>
             <oTime>0</oTime>
             <SplitLS>0</SplitLS>
             <OneElfS>1</OneElfS>
@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\BOOTLOADER;..\CMSIS\inc;..\SOURCE\inc</IncludePath>
+              <IncludePath>..\..\BOOTLOADER;..\CMSIS\inc;..\SOURCE\inc;..\lwip_v1.3.2\src\include;..\lwip_v1.3.2\port\STM32F4x7\Standalone;..\lwip_v1.3.2\src\include\lwip;..\lwip_v1.3.2\src\include\netif;..\lwip_v1.3.2\src\include\ipv4\lwip</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -409,9 +409,19 @@
               <FilePath>..\SOURCE\src\sysInit.c</FilePath>
             </File>
             <File>
+              <FileName>eeprom.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SOURCE\src\eeprom.c</FilePath>
+            </File>
+            <File>
               <FileName>lan87xx.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\SOURCE\src\lan87xx.c</FilePath>
+            </File>
+            <File>
+              <FileName>flash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SOURCE\src\flash.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -442,11 +452,6 @@
     <Layers>
       <Layer>
         <LayName>web_boot</LayName>
-        <LayDesc></LayDesc>
-        <LayUrl></LayUrl>
-        <LayKeys></LayKeys>
-        <LayCat></LayCat>
-        <LayLic></LayLic>
         <LayTarg>0</LayTarg>
         <LayPrjMark>1</LayPrjMark>
       </Layer>

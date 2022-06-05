@@ -2,8 +2,6 @@
 
 int main(void){
   Sysinit();
-  
-  
   while(true){
     
     
